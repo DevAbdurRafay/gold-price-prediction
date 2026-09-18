@@ -1,0 +1,925 @@
+{
+  "test": [
+    {
+      "date": "2026-08-03",
+      "day": "Monday",
+      "actual": 428300.0,
+      "predicted": 429145.15,
+      "diff_pkr": -845.15,
+      "diff_pct": 0.2
+    },
+    {
+      "date": "2026-08-04",
+      "day": "Tuesday",
+      "actual": 430500.0,
+      "predicted": 429715.3,
+      "diff_pkr": 784.7,
+      "diff_pct": 0.18
+    },
+    {
+      "date": "2026-08-05",
+      "day": "Wednesday",
+      "actual": 433200.0,
+      "predicted": 430685.54,
+      "diff_pkr": 2514.46,
+      "diff_pct": 0.58
+    },
+    {
+      "date": "2026-08-06",
+      "day": "Thursday",
+      "actual": 437000.0,
+      "predicted": 434256.79,
+      "diff_pkr": 2743.21,
+      "diff_pct": 0.63
+    },
+    {
+      "date": "2026-08-07",
+      "day": "Friday",
+      "actual": 437000.0,
+      "predicted": 437801.92,
+      "diff_pkr": -801.92,
+      "diff_pct": 0.18
+    },
+    {
+      "date": "2026-08-08",
+      "day": "Saturday",
+      "actual": 449500.0,
+      "predicted": 446058.28,
+      "diff_pkr": 3441.72,
+      "diff_pct": 0.77
+    },
+    {
+      "date": "2026-08-09",
+      "day": "Sunday",
+      "actual": 449500.0,
+      "predicted": 442032.74,
+      "diff_pkr": 7467.26,
+      "diff_pct": 1.66
+    },
+    {
+      "date": "2026-08-10",
+      "day": "Monday",
+      "actual": 447500.0,
+      "predicted": 443720.03,
+      "diff_pkr": 3779.97,
+      "diff_pct": 0.84
+    },
+    {
+      "date": "2026-08-11",
+      "day": "Tuesday",
+      "actual": 453300.0,
+      "predicted": 440859.13,
+      "diff_pkr": 12440.87,
+      "diff_pct": 2.74
+    },
+    {
+      "date": "2026-08-12",
+      "day": "Wednesday",
+      "actual": 455000.0,
+      "predicted": 443876.67,
+      "diff_pkr": 11123.33,
+      "diff_pct": 2.44
+    },
+    {
+      "date": "2026-08-13",
+      "day": "Thursday",
+      "actual": 454000.0,
+      "predicted": 446106.51,
+      "diff_pkr": 7893.49,
+      "diff_pct": 1.74
+    },
+    {
+      "date": "2026-08-14",
+      "day": "Friday",
+      "actual": 454000.0,
+      "predicted": 446273.57,
+      "diff_pkr": 7726.43,
+      "diff_pct": 1.7
+    },
+    {
+      "date": "2026-08-15",
+      "day": "Saturday",
+      "actual": 453700.0,
+      "predicted": 445998.23,
+      "diff_pkr": 7701.77,
+      "diff_pct": 1.7
+    },
+    {
+      "date": "2026-08-16",
+      "day": "Sunday",
+      "actual": 453700.0,
+      "predicted": 445901.48,
+      "diff_pkr": 7798.52,
+      "diff_pct": 1.72
+    },
+    {
+      "date": "2026-08-17",
+      "day": "Monday",
+      "actual": 453700.0,
+      "predicted": 446567.2,
+      "diff_pkr": 7132.8,
+      "diff_pct": 1.57
+    },
+    {
+      "date": "2026-08-18",
+      "day": "Tuesday",
+      "actual": 455800.0,
+      "predicted": 448028.5,
+      "diff_pkr": 7771.5,
+      "diff_pct": 1.71
+    },
+    {
+      "date": "2026-08-19",
+      "day": "Wednesday",
+      "actual": 461500.0,
+      "predicted": 448612.04,
+      "diff_pkr": 12887.96,
+      "diff_pct": 2.79
+    },
+    {
+      "date": "2026-08-20",
+      "day": "Thursday",
+      "actual": 462000.0,
+      "predicted": 453473.99,
+      "diff_pkr": 8526.01,
+      "diff_pct": 1.85
+    },
+    {
+      "date": "2026-08-21",
+      "day": "Friday",
+      "actual": 473000.0,
+      "predicted": 452921.1,
+      "diff_pkr": 20078.9,
+      "diff_pct": 4.25
+    },
+    {
+      "date": "2026-08-22",
+      "day": "Saturday",
+      "actual": 481500.0,
+      "predicted": 463776.14,
+      "diff_pkr": 17723.86,
+      "diff_pct": 3.68
+    },
+    {
+      "date": "2026-08-23",
+      "day": "Sunday",
+      "actual": 481500.0,
+      "predicted": 470041.32,
+      "diff_pkr": 11458.68,
+      "diff_pct": 2.38
+    },
+    {
+      "date": "2026-08-24",
+      "day": "Monday",
+      "actual": 484000.0,
+      "predicted": 482563.06,
+      "diff_pkr": 1436.94,
+      "diff_pct": 0.3
+    },
+    {
+      "date": "2026-08-25",
+      "day": "Tuesday",
+      "actual": 484000.0,
+      "predicted": 487297.88,
+      "diff_pkr": -3297.88,
+      "diff_pct": 0.68
+    },
+    {
+      "date": "2026-08-26",
+      "day": "Wednesday",
+      "actual": 484000.0,
+      "predicted": 478038.38,
+      "diff_pkr": 5961.62,
+      "diff_pct": 1.23
+    },
+    {
+      "date": "2026-08-27",
+      "day": "Thursday",
+      "actual": 478000.0,
+      "predicted": 476699.41,
+      "diff_pkr": 1300.59,
+      "diff_pct": 0.27
+    },
+    {
+      "date": "2026-08-28",
+      "day": "Friday",
+      "actual": 477700.0,
+      "predicted": 474572.15,
+      "diff_pkr": 3127.85,
+      "diff_pct": 0.65
+    },
+    {
+      "date": "2026-08-29",
+      "day": "Saturday",
+      "actual": 465000.0,
+      "predicted": 465789.38,
+      "diff_pkr": -789.38,
+      "diff_pct": 0.17
+    },
+    {
+      "date": "2026-08-30",
+      "day": "Sunday",
+      "actual": 465000.0,
+      "predicted": 452871.7,
+      "diff_pkr": 12128.3,
+      "diff_pct": 2.61
+    },
+    {
+      "date": "2026-08-31",
+      "day": "Monday",
+      "actual": 455500.0,
+      "predicted": 453687.64,
+      "diff_pkr": 1812.36,
+      "diff_pct": 0.4
+    },
+    {
+      "date": "2026-09-01",
+      "day": "Tuesday",
+      "actual": 450000.0,
+      "predicted": 445378.34,
+      "diff_pkr": 4621.66,
+      "diff_pct": 1.03
+    }
+  ],
+  "forecast": [
+    {
+      "date": "2026-09-02",
+      "day": "Wednesday",
+      "predicted": 446542.58
+    },
+    {
+      "date": "2026-09-03",
+      "day": "Thursday",
+      "predicted": 446068.08
+    },
+    {
+      "date": "2026-09-04",
+      "day": "Friday",
+      "predicted": 445825.58
+    },
+    {
+      "date": "2026-09-05",
+      "day": "Saturday",
+      "predicted": 450455.08
+    },
+    {
+      "date": "2026-09-06",
+      "day": "Sunday",
+      "predicted": 450037.78
+    },
+    {
+      "date": "2026-09-07",
+      "day": "Monday",
+      "predicted": 449729.19
+    },
+    {
+      "date": "2026-09-08",
+      "day": "Tuesday",
+      "predicted": 450667.05
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wednesday",
+      "predicted": 451444.09
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thursday",
+      "predicted": 452511.54
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Friday",
+      "predicted": 453488.29
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Saturday",
+      "predicted": 454196.52
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sunday",
+      "predicted": 454674.55
+    },
+    {
+      "date": "2026-09-14",
+      "day": "Monday",
+      "predicted": 454345.09
+    },
+    {
+      "date": "2026-09-15",
+      "day": "Tuesday",
+      "predicted": 454845.71
+    },
+    {
+      "date": "2026-09-16",
+      "day": "Wednesday",
+      "predicted": 454547.96
+    },
+    {
+      "date": "2026-09-17",
+      "day": "Thursday",
+      "predicted": 455088.82
+    },
+    {
+      "date": "2026-09-18",
+      "day": "Friday",
+      "predicted": 454434.56
+    },
+    {
+      "date": "2026-09-19",
+      "day": "Saturday",
+      "predicted": 454573.35
+    },
+    {
+      "date": "2026-09-20",
+      "day": "Sunday",
+      "predicted": 454717.3
+    },
+    {
+      "date": "2026-09-21",
+      "day": "Monday",
+      "predicted": 454241.44
+    },
+    {
+      "date": "2026-09-22",
+      "day": "Tuesday",
+      "predicted": 456943.72
+    },
+    {
+      "date": "2026-09-23",
+      "day": "Wednesday",
+      "predicted": 459042.1
+    },
+    {
+      "date": "2026-09-24",
+      "day": "Thursday",
+      "predicted": 460942.39
+    },
+    {
+      "date": "2026-09-25",
+      "day": "Friday",
+      "predicted": 462065.11
+    },
+    {
+      "date": "2026-09-26",
+      "day": "Saturday",
+      "predicted": 462825.6
+    },
+    {
+      "date": "2026-09-27",
+      "day": "Sunday",
+      "predicted": 463716.0
+    },
+    {
+      "date": "2026-09-28",
+      "day": "Monday",
+      "predicted": 464433.44
+    },
+    {
+      "date": "2026-09-29",
+      "day": "Tuesday",
+      "predicted": 463238.55
+    },
+    {
+      "date": "2026-09-30",
+      "day": "Wednesday",
+      "predicted": 463940.92
+    },
+    {
+      "date": "2026-10-01",
+      "day": "Thursday",
+      "predicted": 463896.98
+    },
+    {
+      "date": "2026-10-02",
+      "day": "Friday",
+      "predicted": 463808.49
+    },
+    {
+      "date": "2026-10-03",
+      "day": "Saturday",
+      "predicted": 463106.7
+    },
+    {
+      "date": "2026-10-04",
+      "day": "Sunday",
+      "predicted": 461925.33
+    },
+    {
+      "date": "2026-10-05",
+      "day": "Monday",
+      "predicted": 461121.47
+    },
+    {
+      "date": "2026-10-06",
+      "day": "Tuesday",
+      "predicted": 460745.53
+    },
+    {
+      "date": "2026-10-07",
+      "day": "Wednesday",
+      "predicted": 460377.71
+    },
+    {
+      "date": "2026-10-08",
+      "day": "Thursday",
+      "predicted": 460147.27
+    },
+    {
+      "date": "2026-10-09",
+      "day": "Friday",
+      "predicted": 460012.59
+    },
+    {
+      "date": "2026-10-10",
+      "day": "Saturday",
+      "predicted": 459944.58
+    },
+    {
+      "date": "2026-10-11",
+      "day": "Sunday",
+      "predicted": 459922.86
+    },
+    {
+      "date": "2026-10-12",
+      "day": "Monday",
+      "predicted": 459968.73
+    },
+    {
+      "date": "2026-10-13",
+      "day": "Tuesday",
+      "predicted": 460025.48
+    },
+    {
+      "date": "2026-10-14",
+      "day": "Wednesday",
+      "predicted": 460094.28
+    },
+    {
+      "date": "2026-10-15",
+      "day": "Thursday",
+      "predicted": 460166.32
+    },
+    {
+      "date": "2026-10-16",
+      "day": "Friday",
+      "predicted": 460240.28
+    },
+    {
+      "date": "2026-10-17",
+      "day": "Saturday",
+      "predicted": 460315.26
+    },
+    {
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "predicted": 460390.62
+    },
+    {
+      "date": "2026-10-19",
+      "day": "Monday",
+      "predicted": 460465.92
+    },
+    {
+      "date": "2026-10-20",
+      "day": "Tuesday",
+      "predicted": 460540.86
+    },
+    {
+      "date": "2026-10-21",
+      "day": "Wednesday",
+      "predicted": 460615.22
+    },
+    {
+      "date": "2026-10-22",
+      "day": "Thursday",
+      "predicted": 460688.87
+    },
+    {
+      "date": "2026-10-23",
+      "day": "Friday",
+      "predicted": 460761.71
+    },
+    {
+      "date": "2026-10-24",
+      "day": "Saturday",
+      "predicted": 460833.69
+    },
+    {
+      "date": "2026-10-25",
+      "day": "Sunday",
+      "predicted": 460904.76
+    },
+    {
+      "date": "2026-10-26",
+      "day": "Monday",
+      "predicted": 460974.9
+    },
+    {
+      "date": "2026-10-27",
+      "day": "Tuesday",
+      "predicted": 460958.37
+    },
+    {
+      "date": "2026-10-28",
+      "day": "Wednesday",
+      "predicted": 460967.84
+    },
+    {
+      "date": "2026-10-29",
+      "day": "Thursday",
+      "predicted": 460995.21
+    },
+    {
+      "date": "2026-10-30",
+      "day": "Friday",
+      "predicted": 461034.8
+    },
+    {
+      "date": "2026-10-31",
+      "day": "Saturday",
+      "predicted": 461082.67
+    },
+    {
+      "date": "2026-11-01",
+      "day": "Sunday",
+      "predicted": 461136.03
+    },
+    {
+      "date": "2026-11-02",
+      "day": "Monday",
+      "predicted": 461192.97
+    },
+    {
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "predicted": 461252.12
+    },
+    {
+      "date": "2026-11-04",
+      "day": "Wednesday",
+      "predicted": 461312.55
+    },
+    {
+      "date": "2026-11-05",
+      "day": "Thursday",
+      "predicted": 461373.61
+    },
+    {
+      "date": "2026-11-06",
+      "day": "Friday",
+      "predicted": 461434.83
+    },
+    {
+      "date": "2026-11-07",
+      "day": "Saturday",
+      "predicted": 461495.91
+    },
+    {
+      "date": "2026-11-08",
+      "day": "Sunday",
+      "predicted": 461556.63
+    },
+    {
+      "date": "2026-11-09",
+      "day": "Monday",
+      "predicted": 461616.84
+    },
+    {
+      "date": "2026-11-10",
+      "day": "Tuesday",
+      "predicted": 461676.44
+    },
+    {
+      "date": "2026-11-11",
+      "day": "Wednesday",
+      "predicted": 461735.36
+    },
+    {
+      "date": "2026-11-12",
+      "day": "Thursday",
+      "predicted": 461740.22
+    },
+    {
+      "date": "2026-11-13",
+      "day": "Friday",
+      "predicted": 461761.1
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Saturday",
+      "predicted": 461792.94
+    },
+    {
+      "date": "2026-11-15",
+      "day": "Sunday",
+      "predicted": 461832.22
+    },
+    {
+      "date": "2026-11-16",
+      "day": "Monday",
+      "predicted": 461876.45
+    },
+    {
+      "date": "2026-11-17",
+      "day": "Tuesday",
+      "predicted": 461923.92
+    },
+    {
+      "date": "2026-11-18",
+      "day": "Wednesday",
+      "predicted": 461973.41
+    },
+    {
+      "date": "2026-11-19",
+      "day": "Thursday",
+      "predicted": 462024.09
+    },
+    {
+      "date": "2026-11-20",
+      "day": "Friday",
+      "predicted": 462075.38
+    },
+    {
+      "date": "2026-11-21",
+      "day": "Saturday",
+      "predicted": 462126.86
+    },
+    {
+      "date": "2026-11-22",
+      "day": "Sunday",
+      "predicted": 462178.25
+    },
+    {
+      "date": "2026-11-23",
+      "day": "Monday",
+      "predicted": 462229.37
+    },
+    {
+      "date": "2026-11-24",
+      "day": "Tuesday",
+      "predicted": 462280.07
+    },
+    {
+      "date": "2026-11-25",
+      "day": "Wednesday",
+      "predicted": 462330.28
+    },
+    {
+      "date": "2026-11-26",
+      "day": "Thursday",
+      "predicted": 462379.93
+    },
+    {
+      "date": "2026-11-27",
+      "day": "Friday",
+      "predicted": 462428.98
+    },
+    {
+      "date": "2026-11-28",
+      "day": "Saturday",
+      "predicted": 462477.4
+    },
+    {
+      "date": "2026-11-29",
+      "day": "Sunday",
+      "predicted": 462525.19
+    },
+    {
+      "date": "2026-11-30",
+      "day": "Monday",
+      "predicted": 462572.33
+    },
+    {
+      "date": "2026-12-01",
+      "day": "Tuesday",
+      "predicted": 462618.83
+    },
+    {
+      "date": "2026-12-02",
+      "day": "Wednesday",
+      "predicted": 462664.68
+    },
+    {
+      "date": "2026-12-03",
+      "day": "Thursday",
+      "predicted": 462709.9
+    },
+    {
+      "date": "2026-12-04",
+      "day": "Friday",
+      "predicted": 462754.48
+    },
+    {
+      "date": "2026-12-05",
+      "day": "Saturday",
+      "predicted": 462798.42
+    },
+    {
+      "date": "2026-12-06",
+      "day": "Sunday",
+      "predicted": 462841.75
+    },
+    {
+      "date": "2026-12-07",
+      "day": "Monday",
+      "predicted": 462884.46
+    },
+    {
+      "date": "2026-12-08",
+      "day": "Tuesday",
+      "predicted": 462926.56
+    },
+    {
+      "date": "2026-12-09",
+      "day": "Wednesday",
+      "predicted": 462968.07
+    },
+    {
+      "date": "2026-12-10",
+      "day": "Thursday",
+      "predicted": 463008.99
+    },
+    {
+      "date": "2026-12-11",
+      "day": "Friday",
+      "predicted": 463049.32
+    },
+    {
+      "date": "2026-12-12",
+      "day": "Saturday",
+      "predicted": 463089.08
+    },
+    {
+      "date": "2026-12-13",
+      "day": "Sunday",
+      "predicted": 463128.27
+    },
+    {
+      "date": "2026-12-14",
+      "day": "Monday",
+      "predicted": 463166.9
+    },
+    {
+      "date": "2026-12-15",
+      "day": "Tuesday",
+      "predicted": 463204.98
+    },
+    {
+      "date": "2026-12-16",
+      "day": "Wednesday",
+      "predicted": 463242.52
+    },
+    {
+      "date": "2026-12-17",
+      "day": "Thursday",
+      "predicted": 463279.53
+    },
+    {
+      "date": "2026-12-18",
+      "day": "Friday",
+      "predicted": 463329.01
+    },
+    {
+      "date": "2026-12-19",
+      "day": "Saturday",
+      "predicted": 463373.88
+    },
+    {
+      "date": "2026-12-20",
+      "day": "Sunday",
+      "predicted": 463415.38
+    },
+    {
+      "date": "2026-12-21",
+      "day": "Monday",
+      "predicted": 463454.38
+    },
+    {
+      "date": "2026-12-22",
+      "day": "Tuesday",
+      "predicted": 463491.49
+    },
+    {
+      "date": "2026-12-23",
+      "day": "Wednesday",
+      "predicted": 463527.13
+    },
+    {
+      "date": "2026-12-24",
+      "day": "Thursday",
+      "predicted": 463561.61
+    },
+    {
+      "date": "2026-12-25",
+      "day": "Friday",
+      "predicted": 463595.13
+    },
+    {
+      "date": "2026-12-26",
+      "day": "Saturday",
+      "predicted": 463627.86
+    },
+    {
+      "date": "2026-12-27",
+      "day": "Sunday",
+      "predicted": 463659.89
+    },
+    {
+      "date": "2026-12-28",
+      "day": "Monday",
+      "predicted": 463691.32
+    },
+    {
+      "date": "2026-12-29",
+      "day": "Tuesday",
+      "predicted": 463722.18
+    },
+    {
+      "date": "2026-12-30",
+      "day": "Wednesday",
+      "predicted": 463752.53
+    },
+    {
+      "date": "2026-12-31",
+      "day": "Thursday",
+      "predicted": 463782.39
+    }
+  ],
+  "models": [
+    {
+      "name": "XGBoost (Differenced)",
+      "rmse": 5529.87,
+      "mae": 4425.13,
+      "mape": 0.96,
+      "r2": 88.32,
+      "status": "\ud83c\udfc6 Best ML Model",
+      "is_best": true
+    },
+    {
+      "name": "Naive Baseline",
+      "rmse": 5095.95,
+      "mae": 3220.0,
+      "mape": 0.7,
+      "r2": 90.08,
+      "status": "Baseline Reference",
+      "is_best": false
+    },
+    {
+      "name": "Random Forest (Differenced)",
+      "rmse": 5605.2,
+      "mae": 4537.9,
+      "mape": 0.98,
+      "r2": 88.0,
+      "status": "High Accuracy",
+      "is_best": false
+    },
+    {
+      "name": "Ridge Regression (Raw)",
+      "rmse": 9438.82,
+      "mae": 7698.03,
+      "mape": 1.65,
+      "r2": 65.97,
+      "status": "Linear Regularized",
+      "is_best": false
+    },
+    {
+      "name": "Linear Regression (Raw)",
+      "rmse": 10206.63,
+      "mae": 8956.53,
+      "mape": 1.93,
+      "r2": 60.2,
+      "status": "Unregularized",
+      "is_best": false
+    },
+    {
+      "name": "Linear Regression (Differenced)",
+      "rmse": 10208.13,
+      "mae": 8957.04,
+      "mape": 1.93,
+      "r2": 60.19,
+      "status": "Unregularized Diff",
+      "is_best": false
+    },
+    {
+      "name": "Random Forest (Raw)",
+      "rmse": 19587.16,
+      "mae": 15413.52,
+      "mape": 3.29,
+      "r2": -46.56,
+      "status": "Overfitted Raw",
+      "is_best": false
+    },
+    {
+      "name": "XGBoost (Raw)",
+      "rmse": 22227.02,
+      "mae": 17952.0,
+      "mape": 3.83,
+      "r2": -88.73,
+      "status": "Unstationarized Raw",
+      "is_best": false
+    }
+  ]
+}
