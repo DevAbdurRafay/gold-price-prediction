@@ -212,23 +212,25 @@
             </div>
         </section>
 
-        <!-- 3 CORE KPI CARDS GRID -->
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- 3 CORE KPI CARDS GRID (Perfect Baseline Alignment) -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
             
             <!-- CARD 1: ACTUAL PRICE -->
             <div class="glass-card rounded-2xl p-6 border-l-4 border-emerald-500 relative overflow-hidden bg-gradient-to-br from-dark-850 to-dark-900 flex flex-col justify-between">
                 <div>
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="text-xs font-bold uppercase tracking-wider text-emerald-400 flex items-center gap-1.5">
+                    <!-- Equalized Header Height (min-h-[44px]) -->
+                    <div class="flex items-start justify-between min-h-[44px] mb-2">
+                        <span class="text-xs font-bold uppercase tracking-wider text-emerald-400 flex items-center gap-1.5 pt-0.5">
                             <span class="w-2 h-2 rounded-full bg-emerald-400"></span> Actual Market Rate
                         </span>
-                        <div class="flex items-center gap-1.5">
-                            <span id="kpi-actual-synced-time" class="px-2 py-0.5 rounded text-[10px] font-semibold bg-gold-500/15 text-gold-300 border border-gold-500/30 whitespace-nowrap">Synced: --:--</span>
+                        <div class="flex flex-col items-end gap-1">
                             <span id="kpi-actual-badge" class="px-2 py-0.5 rounded text-[10px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 whitespace-nowrap">Sarafa.pk API</span>
+                            <span id="kpi-actual-synced-time" class="px-1.5 py-0.2 rounded text-[9px] font-medium text-gold-400 bg-gold-500/10 border border-gold-500/20 whitespace-nowrap">Synced: --:--</span>
                         </div>
                     </div>
 
-                    <div id="kpi-actual-price" class="text-3xl lg:text-4xl font-extrabold text-gradient-emerald font-display my-2 tracking-tight">
+                    <!-- Price Number with Fixed h-12 flex items-center Baseline -->
+                    <div id="kpi-actual-price" class="text-3xl lg:text-4xl font-extrabold text-gradient-emerald font-display my-1 h-12 flex items-center tracking-tight">
                         ₨ 456,600
                     </div>
                 </div>
@@ -242,8 +244,9 @@
             <!-- CARD 2: MODEL PREDICTED PRICE -->
             <div class="glass-card-gold rounded-2xl p-6 border-l-4 border-gold-500 relative overflow-hidden flex flex-col justify-between shadow-xl shadow-gold-500/5">
                 <div>
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="text-xs font-bold uppercase tracking-wider text-gold-400 flex items-center gap-1.5">
+                    <!-- Equalized Header Height (min-h-[44px]) -->
+                    <div class="flex items-start justify-between min-h-[44px] mb-2">
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-400 flex items-center gap-1.5 pt-0.5">
                             <svg class="w-4 h-4 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg> XGBoost Predicted Price
@@ -251,7 +254,8 @@
                         <span class="px-2 py-0.5 rounded text-[10px] font-extrabold bg-gold-500 text-black shadow-md shadow-gold-500/30 whitespace-nowrap">🏆 Best Model</span>
                     </div>
 
-                    <div id="kpi-predicted-price" class="text-3xl lg:text-4xl font-extrabold text-gradient-gold font-display my-2 tracking-tight">
+                    <!-- Price Number with Fixed h-12 flex items-center Baseline -->
+                    <div id="kpi-predicted-price" class="text-3xl lg:text-4xl font-extrabold text-gradient-gold font-display my-1 h-12 flex items-center tracking-tight">
                         ₨ 456,944
                     </div>
                 </div>
@@ -265,16 +269,18 @@
             <!-- CARD 3: PRICE DIFFERENCE & VARIANCE -->
             <div id="kpi-diff-card" class="glass-card rounded-2xl p-6 border-l-4 border-emerald-500 relative overflow-hidden bg-gradient-to-br from-dark-850 to-dark-900 flex flex-col justify-between">
                 <div>
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5">
+                    <!-- Equalized Header Height (min-h-[44px]) -->
+                    <div class="flex items-start justify-between min-h-[44px] mb-2">
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5 pt-0.5">
                             <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                            </svg> Price Difference &amp; Variance
+                            </svg> Price Variance &amp; Diff
                         </span>
                         <span id="kpi-diff-badge" class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 whitespace-nowrap">Exact Match (< 1.0%)</span>
                     </div>
 
-                    <div id="kpi-diff-price" class="text-3xl lg:text-4xl font-extrabold text-gradient-emerald font-display my-2 tracking-tight">
+                    <!-- Price Number with Fixed h-12 flex items-center Baseline -->
+                    <div id="kpi-diff-price" class="text-3xl lg:text-4xl font-extrabold text-gradient-emerald font-display my-1 h-12 flex items-center tracking-tight">
                         ₨ -344
                     </div>
                 </div>
@@ -537,7 +543,6 @@
 
         function TIME_SHORT(fullTime) {
             if (!fullTime) return '--:--';
-            // Strip seconds if long: e.g. "11:44:40 AM" -> "11:44 AM"
             const parts = fullTime.split(' ');
             if (parts.length === 2) {
                 const timeParts = parts[0].split(':');
@@ -605,16 +610,16 @@
             // RENDER PREDICTED PRICE
             txtPred.textContent = predPriceVal !== null ? `₨ ${predPriceVal.toLocaleString()}` : '—';
 
-            // RENDER ACTUAL PRICE & DIFFERENCE
+            // RENDER ACTUAL PRICE & DIFFERENCE WITH STRICT FLEX ALIGNMENT
             if (isFuture || actualPriceVal === null) {
                 txtActual.textContent = '—';
-                txtActual.className = 'text-3xl lg:text-4xl font-extrabold text-slate-500 font-display my-2 tracking-tight';
+                txtActual.className = 'text-3xl lg:text-4xl font-extrabold text-slate-500 font-display my-1 h-12 flex items-center tracking-tight';
                 txtActualType.textContent = 'Pending Real Data';
                 badgeActual.textContent = 'Future Date';
                 badgeActual.className = 'px-2 py-0.5 rounded text-[10px] font-semibold bg-slate-800 text-slate-400 border border-slate-700 whitespace-nowrap';
 
                 txtDiffPrice.textContent = '—';
-                txtDiffPrice.className = 'text-3xl lg:text-4xl font-extrabold text-slate-500 font-display my-2 tracking-tight';
+                txtDiffPrice.className = 'text-3xl lg:text-4xl font-extrabold text-slate-500 font-display my-1 h-12 flex items-center tracking-tight';
                 txtDiffPct.textContent = 'Variance: —';
                 txtDiffStatus.textContent = 'Awaiting Actuals';
                 txtDiffStatus.className = 'font-medium text-slate-400 whitespace-nowrap flex-shrink-0';
@@ -624,14 +629,14 @@
 
             } else {
                 txtActual.textContent = `₨ ${actualPriceVal.toLocaleString()}`;
-                txtActual.className = 'text-3xl lg:text-4xl font-extrabold text-gradient-emerald font-display my-2 tracking-tight';
+                txtActual.className = 'text-3xl lg:text-4xl font-extrabold text-gradient-emerald font-display my-1 h-12 flex items-center tracking-tight';
 
                 const diffPkr = actualPriceVal - predPriceVal;
                 const diffPct = (Math.abs(diffPkr) / actualPriceVal) * 100;
 
                 const sign = diffPkr >= 0 ? '+' : '-';
                 txtDiffPrice.textContent = `₨ ${sign}${Math.abs(Math.round(diffPkr)).toLocaleString()}`;
-                txtDiffPrice.className = 'text-3xl lg:text-4xl font-extrabold text-gradient-emerald font-display my-2 tracking-tight';
+                txtDiffPrice.className = 'text-3xl lg:text-4xl font-extrabold text-gradient-emerald font-display my-1 h-12 flex items-center tracking-tight';
                 txtDiffPct.textContent = `Variance: ${diffPct.toFixed(2)}%`;
 
                 if (diffPct < 1.0) {
